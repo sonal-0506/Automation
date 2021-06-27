@@ -1,0 +1,305 @@
+2021-02-17 21:19:57,436 POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"appium:deviceName": "Nokia 5", "platformName": "Android", "appium:appPackage": "com.zinghr.app", "appium:appWaitActivity": "com.zinghr.app.MainActivity", "appium:appActivity": "MainActivity", "appium:automationName": "UiAutomator2", "appium:autoWebview": true, "appium:autoGrantPermissions": "true", "appium:chromeOptions": {"w3c": false}, "appium:chromedriverExecutable": "C:\\Users\\Sonal Gupta\\Documents\\GitHub\\mobile-automation-testing\\chromedriver\\win\\chromedriver86.exe", "appium:app": "C:\\Users\\Sonal Gupta\\Documents\\GitHub\\mobile-automation-testing\\PythonApp\\apps\\live_testing.apk"}]}, "desiredCapabilities": {"deviceName": "Nokia 5", "platformName": "Android", "appPackage": "com.zinghr.app", "appWaitActivity": "com.zinghr.app.MainActivity", "appActivity": "MainActivity", "automationName": "UiAutomator2", "autoWebview": true, "autoGrantPermissions": "true", "chromeOptions": {"w3c": false}, "chromedriverExecutable": "C:\\Users\\Sonal Gupta\\Documents\\GitHub\\mobile-automation-testing\\chromedriver\\win\\chromedriver86.exe", "app": "C:\\Users\\Sonal Gupta\\Documents\\GitHub\\mobile-automation-testing\\PythonApp\\apps\\live_testing.apk"}}
+2021-02-17 21:19:57,439 Starting new HTTP connection (1): 127.0.0.1:4723
+2021-02-17 21:20:27,644 http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1616
+2021-02-17 21:20:27,645 Finished Request
+2021-02-17 21:20:27,645 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/timeouts {"implicit": 30000}
+2021-02-17 21:20:27,653 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/timeouts HTTP/1.1" 200 65
+2021-02-17 21:20:27,653 Finished Request
+2021-02-17 21:20:27,653 ---------------------------------splash screen invoked---------------------------------
+2021-02-17 21:20:27,653 0:00:00
+2021-02-17 21:20:27,660 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/appium/start_recording_screen {"options": {}}
+2021-02-17 21:20:28,572 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/appium/start_recording_screen HTTP/1.1" 200 12
+2021-02-17 21:20:28,573 Finished Request
+2021-02-17 21:20:28,573 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/appium/app/reset {}
+2021-02-17 21:20:38,526 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/appium/app/reset HTTP/1.1" 200 14
+2021-02-17 21:20:38,526 Finished Request
+2021-02-17 21:20:38,527 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/contexts {}
+2021-02-17 21:20:39,019 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/contexts HTTP/1.1" 200 49
+2021-02-17 21:20:39,020 Finished Request
+2021-02-17 21:20:39,020 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/context {"name": "WEBVIEW_com.zinghr.app"}
+2021-02-17 21:20:49,849 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/context HTTP/1.1" 200 14
+2021-02-17 21:20:49,849 Finished Request
+2021-02-17 21:20:51,849 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "cancel_callback_h"}
+2021-02-17 21:20:52,417 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:20:52,418 Finished Request
+2021-02-17 21:20:54,418 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-1/click {"id": "0.5765460082493361-1"}
+2021-02-17 21:20:54,616 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-1/click HTTP/1.1" 200 65
+2021-02-17 21:20:54,616 Finished Request
+2021-02-17 21:20:54,616 captured new in this realease
+2021-02-17 21:20:54,617 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "id", "value": "TxtCompanyCode"}
+2021-02-17 21:20:54,886 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:20:54,886 Finished Request
+2021-02-17 21:20:54,887 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-2/clear {"id": "0.5765460082493361-2"}
+2021-02-17 21:20:55,427 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-2/clear HTTP/1.1" 200 65
+2021-02-17 21:20:55,428 Finished Request
+2021-02-17 21:20:55,428 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-2/value {"text": "demo", "value": ["d", "e", "m", "o"], "id": "0.5765460082493361-2"}
+2021-02-17 21:20:55,809 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-2/value HTTP/1.1" 200 65
+2021-02-17 21:20:55,810 Finished Request
+2021-02-17 21:20:55,810 captured company code textbox
+2021-02-17 21:20:55,810 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "id", "value": "proceedWithCompanyCode"}
+2021-02-17 21:20:56,481 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:20:56,482 Finished Request
+2021-02-17 21:20:58,483 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-4/click {"id": "0.5765460082493361-4"}
+2021-02-17 21:20:59,258 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-4/click HTTP/1.1" 200 65
+2021-02-17 21:20:59,258 Finished Request
+2021-02-17 21:20:59,258 captured company code submit button
+2021-02-17 21:20:59,258 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "id", "value": "employeeCode"}
+2021-02-17 21:20:59,832 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:20:59,833 Finished Request
+2021-02-17 21:21:01,833 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-5/clear {"id": "0.5765460082493361-5"}
+2021-02-17 21:21:01,996 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-5/clear HTTP/1.1" 200 65
+2021-02-17 21:21:01,996 Finished Request
+2021-02-17 21:21:01,997 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-5/value {"text": "001", "value": ["0", "0", "1"], "id": "0.5765460082493361-5"}
+2021-02-17 21:21:02,385 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-5/value HTTP/1.1" 200 65
+2021-02-17 21:21:02,386 Finished Request
+2021-02-17 21:21:02,386 captured employeecode textbox
+2021-02-17 21:21:02,386 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "id", "value": "employeePassword"}
+2021-02-17 21:21:02,856 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:21:02,856 Finished Request
+2021-02-17 21:21:04,857 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-6/clear {"id": "0.5765460082493361-6"}
+2021-02-17 21:21:04,951 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-6/clear HTTP/1.1" 200 65
+2021-02-17 21:21:04,952 Finished Request
+2021-02-17 21:21:04,952 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-6/value {"text": "Outcomation#2020", "value": ["O", "u", "t", "c", "o", "m", "a", "t", "i", "o", "n", "#", "2", "0", "2", "0"], "id": "0.5765460082493361-6"}
+2021-02-17 21:21:05,232 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-6/value HTTP/1.1" 200 65
+2021-02-17 21:21:05,233 Finished Request
+2021-02-17 21:21:05,233 captured password textbox
+2021-02-17 21:21:05,233 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "css selector", "value": ".user_login_h"}
+2021-02-17 21:21:05,577 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:21:05,578 Finished Request
+2021-02-17 21:21:05,578 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-7/click {"id": "0.5765460082493361-7"}
+2021-02-17 21:21:06,211 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-7/click HTTP/1.1" 200 65
+2021-02-17 21:21:06,212 Finished Request
+2021-02-17 21:21:06,212 captured login button
+2021-02-17 21:21:06,212 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "menu_button_click_h"}
+2021-02-17 21:21:06,783 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:21:06,783 Finished Request
+2021-02-17 21:21:06,783 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-8/displayed {"id": "0.5765460082493361-8"}
+2021-02-17 21:21:07,197 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-8/displayed HTTP/1.1" 200 66
+2021-02-17 21:21:07,197 Finished Request
+2021-02-17 21:21:07,698 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "menu_button_click_h"}
+2021-02-17 21:21:09,321 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:21:09,321 Finished Request
+2021-02-17 21:21:09,321 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-8/displayed {"id": "0.5765460082493361-8"}
+2021-02-17 21:21:10,693 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-8/displayed HTTP/1.1" 200 65
+2021-02-17 21:21:10,694 Finished Request
+2021-02-17 21:21:10,694 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-8/click {"id": "0.5765460082493361-8"}
+2021-02-17 21:21:13,652 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-8/click HTTP/1.1" 200 65
+2021-02-17 21:21:13,652 Finished Request
+2021-02-17 21:21:13,652 captured menu button
+2021-02-17 21:21:13,652 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "pay_slips_menu_h"}
+2021-02-17 21:21:14,499 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 156
+2021-02-17 21:21:14,500 Finished Request
+2021-02-17 21:21:14,500 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-9/click {"id": "0.5765460082493361-9"}
+2021-02-17 21:21:15,726 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-9/click HTTP/1.1" 200 65
+2021-02-17 21:21:15,727 Finished Request
+2021-02-17 21:21:15,727 captured pay slip button
+2021-02-17 21:21:15,727 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:16,936 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:16,936 Finished Request
+2021-02-17 21:21:17,436 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:17,465 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:17,465 Finished Request
+2021-02-17 21:21:17,465 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-10/displayed {"id": "0.5765460082493361-10"}
+2021-02-17 21:21:17,509 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-10/displayed HTTP/1.1" 200 65
+2021-02-17 21:21:17,510 Finished Request
+2021-02-17 21:21:17,510 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-10/text {"id": "0.5765460082493361-10"}
+2021-02-17 21:21:17,545 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-10/text HTTP/1.1" 200 120
+2021-02-17 21:21:17,546 Finished Request
+2021-02-17 21:21:17,546 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-10/text {"id": "0.5765460082493361-10"}
+2021-02-17 21:21:17,587 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-10/text HTTP/1.1" 200 120
+2021-02-17 21:21:17,588 Finished Request
+2021-02-17 21:21:17,588 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "css selector", "value": "button.btn.btn-success.flex-fill.close_h"}
+2021-02-17 21:21:17,620 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:17,620 Finished Request
+2021-02-17 21:21:17,621 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-11/displayed {"id": "0.5765460082493361-11"}
+2021-02-17 21:21:17,654 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-11/displayed HTTP/1.1" 200 65
+2021-02-17 21:21:17,655 Finished Request
+2021-02-17 21:21:17,655 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-11/enabled {"id": "0.5765460082493361-11"}
+2021-02-17 21:21:17,686 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-11/enabled HTTP/1.1" 200 65
+2021-02-17 21:21:17,686 Finished Request
+2021-02-17 21:21:17,686 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-11/click {"id": "0.5765460082493361-11"}
+2021-02-17 21:21:17,810 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-11/click HTTP/1.1" 200 65
+2021-02-17 21:21:17,810 Finished Request
+2021-02-17 21:21:17,811 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "id", "value": "payslipMonth"}
+2021-02-17 21:21:17,854 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:17,854 Finished Request
+2021-02-17 21:21:17,854 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-12/displayed {"id": "0.5765460082493361-12"}
+2021-02-17 21:21:17,894 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-12/displayed HTTP/1.1" 200 65
+2021-02-17 21:21:17,895 Finished Request
+2021-02-17 21:21:17,895 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-12/name {"id": "0.5765460082493361-12"}
+2021-02-17 21:21:17,917 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-12/name HTTP/1.1" 200 69
+2021-02-17 21:21:17,917 Finished Request
+2021-02-17 21:21:17,917 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-12/attribute/multiple {"name": "multiple", "id": "0.5765460082493361-12"}
+2021-02-17 21:21:17,949 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-12/attribute/multiple HTTP/1.1" 200 65
+2021-02-17 21:21:17,949 Finished Request
+2021-02-17 21:21:17,950 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-12/elements {"using": "css selector", "value": "option[value =\"6\"]", "id": "0.5765460082493361-12"}
+2021-02-17 21:21:17,977 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-12/elements HTTP/1.1" 200 160
+2021-02-17 21:21:17,977 Finished Request
+2021-02-17 21:21:17,977 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-13/selected {"id": "0.5765460082493361-13"}
+2021-02-17 21:21:18,002 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-13/selected HTTP/1.1" 200 66
+2021-02-17 21:21:18,003 Finished Request
+2021-02-17 21:21:18,003 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-13/click {"id": "0.5765460082493361-13"}
+2021-02-17 21:21:18,116 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-13/click HTTP/1.1" 200 65
+2021-02-17 21:21:18,116 Finished Request
+2021-02-17 21:21:18,116 captured select month dropdown
+2021-02-17 21:21:18,117 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:18,487 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:18,487 Finished Request
+2021-02-17 21:21:18,488 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-14/displayed {"id": "0.5765460082493361-14"}
+2021-02-17 21:21:18,522 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-14/displayed HTTP/1.1" 200 65
+2021-02-17 21:21:18,523 Finished Request
+2021-02-17 21:21:18,523 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-14/text {"id": "0.5765460082493361-14"}
+2021-02-17 21:21:18,572 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-14/text HTTP/1.1" 200 120
+2021-02-17 21:21:18,572 Finished Request
+2021-02-17 21:21:18,573 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "css selector", "value": "button.btn.btn-success.flex-fill.close_h"}
+2021-02-17 21:21:18,599 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:18,599 Finished Request
+2021-02-17 21:21:18,599 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-15/displayed {"id": "0.5765460082493361-15"}
+2021-02-17 21:21:18,651 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-15/displayed HTTP/1.1" 200 65
+2021-02-17 21:21:18,652 Finished Request
+2021-02-17 21:21:18,652 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-15/enabled {"id": "0.5765460082493361-15"}
+2021-02-17 21:21:18,684 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-15/enabled HTTP/1.1" 200 65
+2021-02-17 21:21:18,685 Finished Request
+2021-02-17 21:21:18,685 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-15/click {"id": "0.5765460082493361-15"}
+2021-02-17 21:21:18,860 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-15/click HTTP/1.1" 200 65
+2021-02-17 21:21:18,860 Finished Request
+2021-02-17 21:21:18,860 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-14/text {"id": "0.5765460082493361-14"}
+2021-02-17 21:21:19,248 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-14/text HTTP/1.1" 404 1221
+2021-02-17 21:21:19,248 Finished Request
+2021-02-17 21:21:19,249 not captured subject. Chosen month has data
+2021-02-17 21:21:19,249 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "id", "value": "payslipYear"}
+2021-02-17 21:21:19,292 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:19,292 Finished Request
+2021-02-17 21:21:19,292 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-16/name {"id": "0.5765460082493361-16"}
+2021-02-17 21:21:19,328 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-16/name HTTP/1.1" 200 69
+2021-02-17 21:21:19,329 Finished Request
+2021-02-17 21:21:19,329 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-16/attribute/multiple {"name": "multiple", "id": "0.5765460082493361-16"}
+2021-02-17 21:21:19,361 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-16/attribute/multiple HTTP/1.1" 200 65
+2021-02-17 21:21:19,361 Finished Request
+2021-02-17 21:21:19,361 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-16/elements {"using": "tag name", "value": "option", "id": "0.5765460082493361-16"}
+2021-02-17 21:21:19,403 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-16/elements HTTP/1.1" 200 650
+2021-02-17 21:21:19,403 Finished Request
+2021-02-17 21:21:19,403 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-16/elements {"using": "tag name", "value": "option", "id": "0.5765460082493361-16"}
+2021-02-17 21:21:19,425 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-16/elements HTTP/1.1" 200 650
+2021-02-17 21:21:19,426 Finished Request
+2021-02-17 21:21:19,426 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-17/attribute/index {"name": "index", "id": "0.5765460082493361-17"}
+2021-02-17 21:21:19,455 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-17/attribute/index HTTP/1.1" 200 64
+2021-02-17 21:21:19,455 Finished Request
+2021-02-17 21:21:19,455 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-18/attribute/index {"name": "index", "id": "0.5765460082493361-18"}
+2021-02-17 21:21:19,484 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-18/attribute/index HTTP/1.1" 200 64
+2021-02-17 21:21:19,484 Finished Request
+2021-02-17 21:21:19,484 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-19/attribute/index {"name": "index", "id": "0.5765460082493361-19"}
+2021-02-17 21:21:19,511 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-19/attribute/index HTTP/1.1" 200 64
+2021-02-17 21:21:19,512 Finished Request
+2021-02-17 21:21:19,512 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-20/attribute/index {"name": "index", "id": "0.5765460082493361-20"}
+2021-02-17 21:21:19,539 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-20/attribute/index HTTP/1.1" 200 64
+2021-02-17 21:21:19,539 Finished Request
+2021-02-17 21:21:19,539 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-21/attribute/index {"name": "index", "id": "0.5765460082493361-21"}
+2021-02-17 21:21:19,567 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-21/attribute/index HTTP/1.1" 200 64
+2021-02-17 21:21:19,567 Finished Request
+2021-02-17 21:21:19,567 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-21/selected {"id": "0.5765460082493361-21"}
+2021-02-17 21:21:19,597 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-21/selected HTTP/1.1" 200 66
+2021-02-17 21:21:19,597 Finished Request
+2021-02-17 21:21:19,597 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-21/click {"id": "0.5765460082493361-21"}
+2021-02-17 21:21:19,797 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-21/click HTTP/1.1" 200 65
+2021-02-17 21:21:19,798 Finished Request
+2021-02-17 21:21:19,798 captured select year dropdown
+2021-02-17 21:21:19,798 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:20,197 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:20,198 Finished Request
+2021-02-17 21:21:20,698 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:20,732 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:20,732 Finished Request
+2021-02-17 21:21:21,234 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:21,270 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:21,270 Finished Request
+2021-02-17 21:21:21,771 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:21,804 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:21,804 Finished Request
+2021-02-17 21:21:22,304 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:22,335 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:22,335 Finished Request
+2021-02-17 21:21:22,835 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:22,877 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:22,877 Finished Request
+2021-02-17 21:21:23,378 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:23,407 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:23,408 Finished Request
+2021-02-17 21:21:23,909 not captured subject. Chosen month correct
+2021-02-17 21:21:23,909 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:23,952 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:23,952 Finished Request
+2021-02-17 21:21:24,454 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:24,486 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:24,486 Finished Request
+2021-02-17 21:21:24,987 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:25,034 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:25,034 Finished Request
+2021-02-17 21:21:25,535 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:25,564 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:25,564 Finished Request
+2021-02-17 21:21:26,064 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:26,101 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:26,101 Finished Request
+2021-02-17 21:21:26,602 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:26,639 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:26,639 Finished Request
+2021-02-17 21:21:27,140 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:27,182 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:27,182 Finished Request
+2021-02-17 21:21:27,682 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "subject_h"}
+2021-02-17 21:21:27,712 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1261
+2021-02-17 21:21:27,712 Finished Request
+2021-02-17 21:21:28,213 not captured subject. Chosen month-year has data
+2021-02-17 21:21:28,213 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "cumulative_payslip_download_h"}
+2021-02-17 21:21:28,251 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:28,251 Finished Request
+2021-02-17 21:21:28,251 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-23/click {"id": "0.5765460082493361-23"}
+2021-02-17 21:21:28,664 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-23/click HTTP/1.1" 200 65
+2021-02-17 21:21:28,664 Finished Request
+2021-02-17 21:21:28,665 captured download cumulative payslip
+2021-02-17 21:21:28,665 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "css selector", "value": "button.btn.btn-success.flex-fill.close_h"}
+2021-02-17 21:21:29,405 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1327
+2021-02-17 21:21:29,406 Finished Request
+2021-02-17 21:21:29,907 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "css selector", "value": "button.btn.btn-success.flex-fill.close_h"}
+2021-02-17 21:21:30,432 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1327
+2021-02-17 21:21:30,433 Finished Request
+2021-02-17 21:21:30,933 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "css selector", "value": "button.btn.btn-success.flex-fill.close_h"}
+2021-02-17 21:21:31,506 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1327
+2021-02-17 21:21:31,506 Finished Request
+2021-02-17 21:21:32,007 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "css selector", "value": "button.btn.btn-success.flex-fill.close_h"}
+2021-02-17 21:21:32,638 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 404 1327
+2021-02-17 21:21:32,638 Finished Request
+2021-02-17 21:21:33,138 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "css selector", "value": "button.btn.btn-success.flex-fill.close_h"}
+2021-02-17 21:21:33,160 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:33,160 Finished Request
+2021-02-17 21:21:33,160 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-24/displayed {"id": "0.5765460082493361-24"}
+2021-02-17 21:21:33,188 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-24/displayed HTTP/1.1" 200 65
+2021-02-17 21:21:33,189 Finished Request
+2021-02-17 21:21:33,189 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-24/enabled {"id": "0.5765460082493361-24"}
+2021-02-17 21:21:33,222 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-24/enabled HTTP/1.1" 200 65
+2021-02-17 21:21:33,222 Finished Request
+2021-02-17 21:21:33,222 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-24/click {"id": "0.5765460082493361-24"}
+2021-02-17 21:21:33,340 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-24/click HTTP/1.1" 200 65
+2021-02-17 21:21:33,341 Finished Request
+2021-02-17 21:21:33,341 captured success OKAY element
+2021-02-17 21:21:33,341 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element {"using": "class name", "value": "view_cumulative_payslip_h"}
+2021-02-17 21:21:33,378 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element HTTP/1.1" 200 158
+2021-02-17 21:21:33,379 Finished Request
+2021-02-17 21:21:33,379 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-25/displayed {"id": "0.5765460082493361-25"}
+2021-02-17 21:21:33,414 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-25/displayed HTTP/1.1" 200 65
+2021-02-17 21:21:33,414 Finished Request
+2021-02-17 21:21:33,414 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-25/click {"id": "0.5765460082493361-25"}
+2021-02-17 21:21:33,761 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/element/0.5765460082493361-25/click HTTP/1.1" 200 65
+2021-02-17 21:21:33,761 Finished Request
+2021-02-17 21:21:33,762 captured view cumulative payslip button
+2021-02-17 21:21:37,804 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/appium/stop_recording_screen {"options": {}}
+2021-02-17 21:21:39,519 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/appium/stop_recording_screen HTTP/1.1" 200 9158984
+2021-02-17 21:21:39,574 Finished Request
+2021-02-17 21:21:39,624 GET http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/screenshot {}
+2021-02-17 21:21:42,625 http://127.0.0.1:4723 "GET /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/screenshot HTTP/1.1" 200 203831
+2021-02-17 21:21:42,627 Finished Request
+2021-02-17 21:21:42,629 POST http://127.0.0.1:4723/wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/log {"type": "browser"}
+2021-02-17 21:21:42,657 http://127.0.0.1:4723 "POST /wd/hub/session/003ce25d-922f-4113-8aae-6f5934bfbc08/log HTTP/1.1" 200 5299
+2021-02-17 21:21:42,658 Finished Request
+2021-02-17 21:21:42,666 ########ViewCumulativePaySlip done successful########
