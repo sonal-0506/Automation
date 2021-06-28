@@ -1,1 +1,1 @@
-zing-mobile-testing
+mobile-testing
